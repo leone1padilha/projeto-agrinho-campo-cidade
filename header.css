@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+header {
+    font-family: "Edu NSW ACT Cursive", cursive;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    padding: 28px 8%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  background-color: white; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  z-index: 1000; 
+  padding: 10px 20px;
+}
+
+#navbar {
+    width: 100%;
+  background-color: #ffffff;
+  padding: 12px 2px;
+  height: auto;
+  font-size: 14px;
+}
+
+#nav-list {
+    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#nav-list li {
+  list-style: none;
+}
+
+#nav-list a {
+  padding: 2px 4px;
+  line-height: 1.2;
+  color: rgb(32, 32, 32);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  color: #f1c40f;
+}
+
+.nav-item a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-weight: 400;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    border-bottom: 3px solid #ffe100;
+}
+
+#titulo-campo {
+    color: #ffb833;
+
+}
+
+#titulo-cc {
+    text-align: center;
+  width: 100%;
+  color: rgb(26, 26, 26);
+  font-size: 50px;
+}
+
+#navbar img {
+  margin-right: 20px;
+  vertical-align: middle;
+}

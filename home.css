@@ -1,0 +1,76 @@
+#home {
+    
+    min-height: calc(100vh-91px);
+}
+
+.banner1 {
+    text-align: right;
+
+}
+
+.img-inicial {
+  width: 50%;
+align-content: right;
+}
+
+.container-galeria {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 600px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.item-foto img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.galeria-centralizada {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+
+.foto-galeria img {
+  width: 500px; 
+  height: auto;
+  object-fit: cover; 
+  border-radius: 6px; 
+}
+
+.galeria-campo-cidade {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.item-galeria-campo img {
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-galeria-campo img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .item-galeria-campo img {
+    width: 90%;
+    height: auto;
+  }
+}

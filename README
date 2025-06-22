@@ -1,0 +1,67 @@
+📁 Estrutura do Projeto - Campo e Cidade
+🌿 Nome do Projeto:
+AGRINHO 2025
+
+📂 Estrutura de Pastas
+css
+Copy
+Edit
+AGRINHO 2025/
+├── img/
+│   ├── agro_maquinas_agricolas_produtor.jpg
+│   ├── Case-IH_Quadtrac.webp
+│   ├── colheitadeira-colhendo.jpg
+│   ├── detalhe-da-planta-de-arroz.avif
+│   ├── infraestrutura-urbana.jpg
+│   ├── passeio-a-cavalo.jpg
+│   ├── pilha-de-troncos.jpg
+│   ├── pngwing.com.png
+│   ├── sensoriamento-remoto.jpg
+│   ├── UrbanVsRural.jpg
+│   ├── uso-de-drones-no-monitoramento.jpg
+│   └── vista-aerea-da-infraestrutura.jpg
+├── src/
+│   └── styles/
+│       ├── footer.css
+│       ├── header.css
+│       ├── home.css
+│       └── style.css
+├── index.html
+└── README.md
+✅ Explicação da Estrutura
+📌 1. Pasta img/
+Contém todas as imagens usadas no site.
+Exemplos: fotos de máquinas agrícolas, infraestrutura urbana, campo, cidade, etc.
+
+📌 2. Pasta src/styles/
+Contém os arquivos de estilo CSS separados por partes:
+
+Arquivo	Função
+header.css	Estilos específicos do cabeçalho (nav, título)
+home.css	Estilos da seção de introdução ou página inicial
+footer.css	Estilos do rodapé
+style.css	Estilo geral para o corpo, fontes, imagens e espaçamentos globais
+
+📌 3. Arquivo index.html
+É o arquivo principal da página.
+Estrutura geral:
+
+<header> → Contém o título e o menu de navegação.
+
+<main> → Dividido em seções como Introdução, Campo, Cidade, Relações, Tecnologia, Serviços, Desafios e Exemplos.
+
+<footer> → Contém os créditos das imagens.
+
+📌 4. Arquivo README.md
+(Provavelmente o que você está criando agora 😄)
+Deve conter:
+
+Nome do projeto
+
+Estrutura de pastas
+
+Função de cada pasta/arquivo
+
+Créditos das imagens
+
+Observações sobre como abrir o projeto no navegador (Exemplo: abrir o arquivo index.html)

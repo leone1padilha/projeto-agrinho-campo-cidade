@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bubblegum+Sans&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Graduate&family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Graduate&family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bubblegum+Sans&family=Caprasimo&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Graduate&family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Bubblegum+Sans&family=Caprasimo&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Graduate&family=Nothing+You+Could+Do&display=swap');
+* {
+  font-family: Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+
+  padding-top: 70px;
+  line-height: 1.6;
+  color: #333;
+  background-color: rgb(250, 250, 250);
+}
+
+/* Navegação */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+
+.exemplos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.exemplo {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+/* Imagens */
+.imagem1 {
+  width: 30%;
+}
+
+.img-campo {
+  width: 34%;
+  text-align: center;
+  margin: 0;
+}
+
+.img-campo1 {
+  width: 37%;
+  text-align: center;
+}
+
+.img-campo3 {
+  width: 40%;
+  text-align: center;
+  margin: 0;
+}
+
+.img-city {
+  width: 40%;
+  text-align: center;
+  margin: 0;
+}
+
+.porque-não-centraliza {
+  text-align: center;
+}
+
+/* Texto */
+.texto {
+  padding: 20px 25px 30px 25px;
+  text-align: justify;
+}
+
+/* Títulos */
+h1 {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  text-align: center;
+}
+h3 {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  background: linear-gradient(90deg, #d6d6d6, #bbff00);
+  color: rgb(58, 58, 58);
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-size: 1.6em;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-transform: uppercase; /* Deixa o título todo em maiúsculo */
+  letter-spacing: 1px;
+}
+h2 {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  
+}
+
+h4::before {
+   font-family: "Caprasimo", cursive;
+  content: '';                    
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);    
+  width: 8px;                    
+  height: 8px;
+  background-color: #000000;      
+  border-radius: 50%;             
+}
+
+h4{ 
+  font-family: "Caprasimo", cursive;
+  font-size: 20px;
+  padding-left: 10px;
+  position: relative; 
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+ 
+p{
+  font-size: 16px;
+  padding-left: 25px;
+}
+
+.btn-default {
+  background-color: #f1c40f;
+  margin-top: 0;
+  color: #333;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.btn-default:hover {
+  background-color: #e0b400;
+  color: #000;
+}
+
+.conteudo {
+    display: flex;          
+    align-items: center;     
+    justify-content: center;             
+    padding: 20px;
+}
+
+.conteudo .texto {
+    max-width: 50%;          
+}
+
+.conteudo .banner img {
+    max-width: 400px;        
+    width: 100%;             
+    height: auto;            
+}
+
+.gallery {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.gallery h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-item {
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.gallery-item p {
+  padding: 12px;
+  font-size: 16px;
+  color: #34495e;
+}
