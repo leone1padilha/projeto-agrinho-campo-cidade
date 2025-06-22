@@ -53,8 +53,6 @@ Estrutura geral:
 <footer> → Contém os créditos das imagens.
 
 📌 4. Arquivo README.md
-(Provavelmente o que você está criando agora 😄)
-Deve conter:
 
 Nome do projeto
 
@@ -63,5 +61,3 @@ Estrutura de pastas
 Função de cada pasta/arquivo
 
 Créditos das imagens
-
-Observações sobre como abrir o projeto no navegador (Exemplo: abrir o arquivo index.html)
